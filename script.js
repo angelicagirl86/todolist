@@ -23,3 +23,9 @@ $("#stuff").on('click', 'li', function () {
     /* Makes sure the href doesn't take the user anywhere */
     $(this).css("text-decoration", "line-through");
 });
+
+/*$("#checkAll").change(function() {
+    if(this.checked) {
+        $("ul").css("text-decoration", "line-through");
+    }
+});*/
