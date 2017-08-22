@@ -32,7 +32,11 @@ $('#toDo').submit(function () {
     if ($('input').val() !== '') {
         /* Creates the list item and the cross to remove the list item*/
         var input_value = $('input').val();
+<<<<<<< HEAD
         $('ul').append('<li>' + input_value + '<a href="" id="cross">x</a></li>' + '<input type="checkbox" name = "box1"/>');
+=======
+        $('ul').append('<li>' + input_value + '<a href="" id="cross"><img src="45292.png"></a></li>');
+>>>>>>> origin/master
 
     };
     /* If the input value is an empty string do nothing*/
@@ -68,10 +72,3 @@ $("#stuff").on('click', 'li', function () {
     $(this).css("text-decoration", "line-through");
 }); 
 
-/* 
-$("#stuff").toggle(function () {
-    $(this).css("text-decoration", "line-through");
-}, function () {
-    $(this).css("text-decoration", "none");
-});
-*/
