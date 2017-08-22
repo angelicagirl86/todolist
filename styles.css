@@ -14,4 +14,8 @@ body {
     font-size: 12px;
 }
 
-input {}
+input {
+    display: flex;
+    width: 30%;
+    border-radius: 5px;
+}
