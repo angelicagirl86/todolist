@@ -1,0 +1,17 @@
+body {
+        background-color: lightpink;
+}
+
+.form {
+    background-color: slategray;
+}
+
+.toDoList {
+    background-color: slategray;
+}
+
+
+#toDo {
+    font-size: 12px;
+}
+
