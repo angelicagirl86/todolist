@@ -11,14 +11,6 @@ $('#toDo').submit(function () {
     $('input').val('');
     return false;
 });
-
-/* Function to check the list item */
-$("#stuff").on('click', 'li', function () {
-    /* Makes sure the href doesn't take the user anywhere */
-    $(this).css("text-decoration", "line-through");
-});
-
-
 /* Function to remove the list item */
 $(document).on('click', '#cross', function (e) {
     /* Makes sure the href doesn't take the user anywhere */
@@ -26,5 +18,9 @@ $(document).on('click', '#cross', function (e) {
     $(this).parent().remove();
 });
 
-
+/* Function to check the list item */
+$("#stuff").on('click', 'li', function () {
+    /* Makes sure the href doesn't take the user anywhere */
+    $(this).css("text-decoration", "line-through");
+});
 
