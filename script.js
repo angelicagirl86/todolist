@@ -18,9 +18,13 @@ $(document).on('click', '#cross', function (e) {
     $(this).parent().remove();
 });
 
+
 /* Function to check the list item */
 $("#stuff").on('click', 'li', function () {
     /* Makes sure the href doesn't take the user anywhere */
     $(this).css("text-decoration", "line-through");
 });
+
+
+
 
