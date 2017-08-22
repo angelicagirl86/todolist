@@ -1,5 +1,5 @@
 /* Brings the form from the toDo list into focus and calls submit event's function */
-$('form').submit(function () {
+$('#toDo').submit(function () {
     /* If the input value is not an emtpy string */
     if ($('input').val() !== '') {
         /* Creates the list item and the cross to remove the list item*/
@@ -24,8 +24,3 @@ $("#stuff").on('click', 'li', function () {
     $(this).css("text-decoration", "line-through");
 });
 
-/*$("#checkAll").change(function() {
-    if(this.checked) {
-        $("ul").css("text-decoration", "line-through");
-    }
-});*/
