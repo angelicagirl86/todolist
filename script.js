@@ -23,8 +23,12 @@ $(document).on('click', '#cross', function (e) {
 $("#stuff").on('click', 'li', function () {
     /* Makes sure the href doesn't take the user anywhere */
     $(this).css("text-decoration", "line-through");
+}); 
+
+/* 
+$("#stuff").toggle(function () {
+    $(this).css("text-decoration", "line-through");
+}, function () {
+    $(this).css("text-decoration", "none");
 });
-
-
-
-
+*/
