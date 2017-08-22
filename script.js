@@ -41,6 +41,7 @@ $('#toDo').submit(function () {
     
     return false;
 });
+<<<<<<< HEAD
 
 /* Function to check the list item */
 $("#stuff").on('click', 'li', function () {
@@ -51,6 +52,8 @@ $("#stuff").on('click', 'li', function () {
 
 });
 
+=======
+>>>>>>> origin/master
 /* Function to remove the list item */
 $(document).on('click', '#cross', function (e) {
     /* Makes sure the href doesn't take the user anywhere */
@@ -59,4 +62,16 @@ $(document).on('click', '#cross', function (e) {
 });
 
 
+/* Function to check the list item */
+$("#stuff").on('click', 'li', function () {
+    /* Makes sure the href doesn't take the user anywhere */
+    $(this).css("text-decoration", "line-through");
+}); 
 
+/* 
+$("#stuff").toggle(function () {
+    $(this).css("text-decoration", "line-through");
+}, function () {
+    $(this).css("text-decoration", "none");
+});
+*/
